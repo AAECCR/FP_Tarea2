@@ -9,7 +9,7 @@ Cortés Romero Alberto Emiliano
 
 int main()
 {
-    float precio, subtotal,total; 
+    float precio, ahorro,total; 
     printf("Bienvenido, cuanto cuesta el producto elegido?\n");
     scanf("%f",&precio);
     
@@ -17,9 +17,9 @@ int main()
     {
         printf("Se aplicara un descuento del 8%%.\n");
         
-        subtotal = (precio * descuento);
+        ahorro = (precio * descuento);
         
-        total = precio - subtotal;
+        total = precio - ahorro;
         
         printf("El total a pagar es de $%.2f.", total);
     }else{
