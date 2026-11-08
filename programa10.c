@@ -8,11 +8,12 @@ Cortés Romero Alberto Emiliano
 int main()
 {
     int a ,m,n,o;
+    m=0;
+    n=0;
+    o=0;
     for (int i=0 ; i<10; i++)
     {
-        m=0;
-        n=0;
-        o=0;
+        
         printf("Ingrese el numero %i, este proceso se repetira 100 veces!\n",i+1);
         scanf("%i",&a);
         
