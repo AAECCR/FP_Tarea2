@@ -22,6 +22,7 @@ int main()
         printf("%i es divisor de %i", b,a);
     }else{
         //a no es divisor de b y viceversa
+        printf("%i no es divisor de %i ni %i es divisor de %i", b,a,a,b);
     }
 
     return 0;
